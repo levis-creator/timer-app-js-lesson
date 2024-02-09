@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+main {
+  background: rgb(139, 199, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(139, 199, 255, 1) 0%,
+    rgba(35, 58, 255, 1) 100%
+  );
+  height: calc(100vh - 100px);
+  padding: 70px 90px;
+}
+.container {
+  background: white;
+  box-shadow: 5px 8px 24px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 8px 24px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 8px 24px -6px rgba(0, 0, 0, 0.75);
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-block: inherit;
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-inline: 60px;
+  gap: 30px;
+}
+.timer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.time-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.time-container-items {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+}
+.time {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 30px;
+  padding-inline: 30px;
+  color: #273441;
+}
+.time-card {
+  box-shadow: 7px 12px 36px -14px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 7px 12px 36px -14px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 7px 12px 36px -14px rgba(0, 0, 0, 0.33);
+  border-radius: 20px;
+}
+.time-label {
+  display: block;
+  text-align: center;
+}
+.time-size {
+  font-size: 80px;
+}
+.time-color {
+  color: #47a6ff;
+}
+.button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button-area button {
+  font-size: 30px;
+  padding: 10px 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.button-area .start {
+  background-color: rgb(223, 95, 95);
+  color: white;
+}
